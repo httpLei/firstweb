@@ -1,0 +1,100 @@
+*
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("ddaeso\ blue\ 🌧️.jpg");
+    padding: 20px;
+}
+h1 {
+    color: #29569e;
+    text-align: center;
+}
+p {
+    color: #020202;
+}
+h2 {
+    color: #29569e;
+}
+h3 {
+    color: #29569e;
+}
+
+h1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b8cadf;
+  }
+  img {
+    width: 20%;
+}
+img {
+    display: block;
+    width: 80%;
+    border-radius: 30%;
+}
+.column {
+    float: left;
+    width: 15%;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+div.pic img {
+    display: block;
+    width: 90%;
+    border-radius: 1px;
+}
+.line {
+    float: left;
+    width: 17%;
+}
+.pic::after {
+content: "";
+display: table;
+clear: both;
+}
+div.dramas img {
+    display: block;
+    width: 90%;
+    border-radius: 1px;
+}
+.series {
+    float: left;
+    width: 17%;
+}
+.dramas::after {
+content: "";
+display: table;
+clear: both;
+}
+div.kpop img {
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+}
+.group {
+    float: left;
+    width: 15%;
+}
+.kpop::after {
+content: "";
+display: table;
+clear: both;
+}
+div.sunrise img {
+    display: block;
+    width: 70%;
+    border-radius: 10px;
+}
+.sunset {
+    float: left;
+    width: 12%;
+}
+.sunrise::after {
+content: "";
+display: table;
+clear: both;
+}
